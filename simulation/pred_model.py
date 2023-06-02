@@ -10,7 +10,6 @@ import pandas as pd
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-
 def split_train_test(samplingdata, test_ratio=0.1):
     train_X, test_X, train_Y, test_Y = train_test_split(samplingdata[0], samplingdata[1], test_size=test_ratio)
 
@@ -75,10 +74,10 @@ def evaluate_model(model, split_data):
 
     return auc, acc, sen, spe
 
-def predict_mci(model, samplingdata):
+def predict_missing(model, samplingdata):
     return model.predict_proba(samplingdata[2][:,:-1])[:,1]
 
-def evaluate_mci(model, samplingdata):
+def evaluate_missing(model, samplingdata):
     test_X = samplingdata[2][:,:-1]
     test_Y = samplingdata[3]
 

@@ -1,0 +1,10 @@
+joblib==1.2.0
+json5==0.9.5
+numpy==1.24.2
+pandas==1.5.3
+pandocfilters==1.4.3
+ruamel_yaml==0.15.87
+scikit-learn==1.2.1
+scipy==1.10.0
+statannot==0.2.3
+statsmodels==0.13.5
