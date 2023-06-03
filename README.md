@@ -56,5 +56,5 @@ $𝑝_𝑖 =logit^{−1}{[𝐷_𝑖α+∑_{𝑗=1}^{k}{(𝑋_{𝑖𝑗}^{'}-{\
 $y_i \sim Bernoulli(p_i)$.
 <br/> <br/>
 
-![generate_data](https://github.com/Junkkkk/wGEE_GWAS/assets/46311404/f25ff951-efd0-4c1b-945a-01a042b8c949)
+![Generate_data](https://github.com/Junkkkk/wGEE_GWAS/assets/46311404/8f0fd174-29c1-4783-bb68-19b0c447fbc4)
 
