@@ -21,19 +21,17 @@ if __name__ == '__main__':
     parser.add_argument('--N', type=int, default=50000)
     parser.add_argument('--n_case', type=int, default=5000)
     parser.add_argument('--n_control', type=int, default=5000)
-    parser.add_argument('--n_missing', type=int, default=2500)
+    parser.add_argument('--n_missing', type=int, default=5000)
     parser.add_argument('--n_predictor', type=int, default=50)
 
     parser.add_argument('--maf', type=float, default=0.1)
 
     parser.add_argument('--h_i', type=float, default=0.001)
     parser.add_argument('--h_d', type=float, default=0.0001)
-    parser.add_argument('--nu', type=float, default=0.9)
-    parser.add_argument('--K', type=int, default=10)
+    parser.add_argument('--nu', type=float, default=0.5)
+    parser.add_argument('--k', type=int, default=10)
 
     config = parser.parse_args()
-
-    coef = np.load(config.coef_path)
     seeds= list(np.arange(0,100))
 
     main(seeds)

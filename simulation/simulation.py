@@ -7,7 +7,7 @@ import random
 import numpy as np
 import pandas as pd
 
-def simulation(config, coef, i, seed, snp_seed):
+def simulation(config, i, seed, snp_seed):
     N=config.N
     n_case=config.n_case
     n_control=config.n_control
@@ -20,7 +20,7 @@ def simulation(config, coef, i, seed, snp_seed):
     h_d = config.h_d
 
     nu = config.nu
-    K = config.K
+    K = config.k
 
     '''
     :param N: population size
