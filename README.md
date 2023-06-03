@@ -50,5 +50,6 @@ optional arguments:
 ```
 # How to generate data
 $\gamma_j, \alpha \sim U(-1,1)$. 
-
+${\p}_i\ ={\rm logit}^{-1}\ \left\{D_i\alpha+\ \sum_{j=1}^{n}{X_{ij}\gamma_j}\ +\left(1-\right)G_i\beta_D+\ \epsilon_i\right\}.
+$y_i \sim Bernoulli(p_i)$.
 
