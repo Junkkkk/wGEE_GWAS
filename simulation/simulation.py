@@ -22,16 +22,6 @@ def simulation(config, i, seed, snp_seed):
     nu = config.nu
     K = config.k
 
-    '''
-    :param N: population size
-    :param n: simulation sample size
-    :param n_missing: # of subjects with missing phenotypes
-
-    :param maf: minor allele frequency
-    :param path: save path
-    :param i: simulation index
-    '''
-
     # generate input features and phenotype for prediction
     snps = generate_snps(N, maf, snp_seed)
     
