@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 ```bash
 python train.py -h
 usage: train.py [-h] [--save_path SAVE_PATH] [--N N] [--n_case N_CASE] [--n_control N_CONTROL] [--n_missing N_MISSING]
-[--n_predictor N_PREDICTOR] [--maf MAF] [--h_i H_I] [--h_d H_D] [--nu NU] [--K K]
+[--n_predictor N_PREDICTOR] [--maf MAF] [--h_i H_I] [--h_d H_D] [--nu NU] [--k K]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -45,7 +45,7 @@ optional arguments:
                         (default=0.0001)
   --nu NU  # ratio of indirect effect size of SNP on disease status (0~1)
                         (default=0.5)
-  --k NU  # the number of predictors affected by SNP (K<= n_predictor)
+  --k K  # the number of predictors affected by SNP (K<= n_predictor)
                         (default=10)
 ```
 # How to generate data
@@ -56,4 +56,5 @@ $𝑝_𝑖 =logit^{−1}{[𝐷_𝑖α+∑_{𝑗=1}^{k}{(𝑋_{𝑖𝑗}^{'}-{\
 $y_i \sim Bernoulli(p_i)$.
 <br/> <br/>
 
+![generate_data](https://github.com/Junkkkk/wGEE_GWAS/assets/46311404/f25ff951-efd0-4c1b-945a-01a042b8c949)
 
