@@ -19,8 +19,8 @@ $ pip install -r requirements.txt
 # Code
 
 ```bash
-python train.py -h
-usage: train.py [-h] [--save_path SAVE_PATH] [--N N] [--n_case N_CASE] [--n_control N_CONTROL] [--n_missing N_MISSING]
+python main.py -h
+usage: main.py [-h] [--save_path SAVE_PATH] [--N N] [--n_case N_CASE] [--n_control N_CONTROL] [--n_missing N_MISSING]
 [--n_predictor N_PREDICTOR] [--maf MAF] [--h_i H_I] [--h_d H_D] [--nu NU] [--k K]
 
 optional arguments:
