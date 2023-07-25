@@ -68,9 +68,9 @@ $y_i \sim Bernoulli(p_i)$.
 |2|-0.0049|0.0213|0.0483|0.6059|
 |3|-0.0009|0.0459|0.0483|0.3201|
 
-- column
-  - SNP idx : SNP index
-  - coef0 : constant coefficient
-  - coef : SNP coefficient
-  - std : standard deviation of SNP coefficient
-  - p_value : p value of SNP coefficient
+  - column
+    - SNP idx : SNP index
+    - coef0 : constant coefficient
+    - coef : SNP coefficient
+    - std : standard deviation of SNP coefficient
+    - p_value : p value of SNP coefficient
