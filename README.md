@@ -70,11 +70,7 @@ $y_i \sim Bernoulli(p_i)$.
 
 - column
   - SNP idx : SNP index
-<br/>
-coef0 : constant coefficient
-<br/>
-coef : SNP coefficient
-<br/>
-std : standard deviation of SNP coefficient
-<br/>
-p_value : p value of SNP coefficient
+  - coef0 : constant coefficient
+  - coef : SNP coefficient
+  - std : standard deviation of SNP coefficient
+  - p_value : p value of SNP coefficient
