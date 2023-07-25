@@ -60,17 +60,14 @@ $y_i \sim Bernoulli(p_i)$.
 
 # Output
 - output : csv file 
-<br/>
 - Example
 <br/>
-
 |SNP idx|coef0|coef|std|p_value|
 |:---:|:---:|:---:|:---:|:---:|
 |1|0.0085|-0.4123|0.0483|1.57e-17|
 |2|-0.0049|0.0213|0.0483|0.6059|
 |3|-0.0009|0.0459|0.0483|0.3201|
 
-<br/>
 - column
 <br/>
 SNP idx : SNP index
