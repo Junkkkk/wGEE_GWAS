@@ -63,6 +63,7 @@ $y_i \sim Bernoulli(p_i)$.
 <br/>
 - Example
 <br/>
+
 |SNP idx|coef0|coef|std|p_value|
 |:---:|:---:|:---:|:---:|:---:|
 |1|0.0085|-0.4123|0.0483|1.57e-17|
