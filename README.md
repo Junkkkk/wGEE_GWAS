@@ -69,7 +69,6 @@ $y_i \sim Bernoulli(p_i)$.
 |3|-0.0009|0.0459|0.0483|0.3201|
 
 - column
-<br/>
 SNP idx : SNP index
 <br/>
 coef0 : constant coefficient
