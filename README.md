@@ -59,8 +59,9 @@ $y_i \sim Bernoulli(p_i)$.
 ![Generate_data](https://github.com/Junkkkk/wGEE_GWAS/assets/46311404/8f0fd174-29c1-4783-bb68-19b0c447fbc4)
 
 # Output
-csv file example
+output : csv file 
 <br/>
+Example
 |SNP idx|coef0|coef|std|p_value|
 |:---:|:---:|:---:|:---:|:---:|
 |1|0.0085|-0.4123|0.0483|1.57e-17|
