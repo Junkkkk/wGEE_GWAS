@@ -61,8 +61,19 @@ $y_i \sim Bernoulli(p_i)$.
 # Output
 csv file
 <br/>
-|SNP idx|내용|설명|
-|:---|---:|:---:|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
+|SNP idx|coef0|coef|std|p_value|
+|:---:|:---:|:---:|:---:|:---:|
+|1|0.0085|-0.4123|0.0483|1.57e-17|
+|2|-0.0049|0.0213|0.0483|0.6059|
+|3|-0.0009|0.0459|0.0483|0.3201|
+
+<br/>
+SNP idx : SNP index
+<br/>
+coef0 : constant coefficient
+<br/>
+coef : SNP coefficient
+<br/>
+std : standard deviation of SNP coefficient
+<br/>
+p_value : p value of SNP coefficient
